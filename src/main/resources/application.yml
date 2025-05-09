@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: springBoot-data-Jpa
+  datasource:
+    url: jdbc:postgresql://localhost:5432/java_workshopsdb
+    driver-class-name: org.postgresql.Driver
+    username:
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql:
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+
+
